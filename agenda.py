@@ -69,7 +69,6 @@ def exportar_contatos(nome_do_arquivo):
             print('>>>> Agenda exportada com sucesso')
     except Exception as error:
         print('Algum erro ocorreu')
-        print(error)
 
 def importar_contatos(nome_do_arquivo):
     try:
@@ -115,7 +114,6 @@ def carregar():
         print('>>>>> Arquivo não encontrado')
     except Exception as error:
         print('>>>>> Algum erro inesperado ocorreu')
-        print(error)
 
 def imprimir_menu():
     print(' 1 -> Mostrar todos os contatos da agenda\n',
